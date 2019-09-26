@@ -1,3 +1,23 @@
 # Description of your program (part 7)
+1a. Create a variable called wordCount. Set wordCount to 0.
+    Create a variable called currentChar.
+Analyze the given document character by character.
+2a. If there are no characters in the document, return wordCount. End the program.
+2b. Otherwise, set currentChar to the first character in the document.
+3a. If currentChar is not a space, increase wordCount by 1.
+Loop:
+4a. If there is no character after currentChar, return wordCount. End the program.
+4b. Otherwise, set currentChar to the character after currentChar.
+5a. If the currentChar is a space and the character after is not a space, increase wordCount by 1.
 
 # Reflection on writing your program (part 8)
+The exercise was pretty difficult. First I had to figure out how to determine what classifies a word. I defined a
+a word as the first non-space character in a document and whenever there is a character after a space.
+I also had to consider several cases that might confuse a computer, such as a document beginning or ending with a space
+or having two spaces in a row. I had to go over each of these cases and modify my code to handle them.
+It was satisfying to wake up my brain and review how computers and code work, but it was frustrating trying to write
+the program in English and not be able to test it out with different conditions and see where my bugs might be.
+
+While I've taken different programming language classes in the past, I have never formally learned Python or seen how
+I could use my skills in a UX/HCDE related career. I'm hoping this course will help me strengthen my programming skills
+and show me how I can apply them in a way that interests me or even excites me about a different career path.
